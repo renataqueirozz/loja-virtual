@@ -1,0 +1,97 @@
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+
+.footer__social-links img {
+  width: 1em; 
+  height: 1em; 
+  margin: 0 5px; 
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.company-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+.footer__social-links a {
+  text-decoration: none; 
+  margin-right: 10px; 
+  padding: 5px; 
+  border-radius: 5px; 
+  font-weight: bold; 
+}
+
+.twitter {
+  color: #00BFFF; 
+}
+
+.facebook {
+  color: #00008B; 
+}
+
+.youtube {
+  color: #FF0000; 
+}
+
+.instagram {
+  color: #FF1493; 
+}
+
+.footer__social-links a:hover {
+  color: #333; 
+  background-color: #F0F0F0; 
+}
+
